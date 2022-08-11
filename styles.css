@@ -1,4 +1,4 @@
-/************************************* css selctors ***************************************/
+/************************************* Tag selctors ***************************************/
 
 @import {url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 } 
@@ -23,9 +23,6 @@ body {
   background: #a1c3ff;
   
 }
-
-
-
 
 
 
@@ -64,12 +61,12 @@ h1,h2{ margin-bottom: 15px;
 .nav-bar{ background-color: #3474e6;
 color:#fff;
 height:60px;
-padding: 5px;
+padding: 7px;
+
 }
 
 
-
-.container { display: flex;
+.container { display:flex;
 max-width: 1100px;
 margin:0 auto; 
 padding:0 30px;
@@ -118,8 +115,8 @@ font-weight: bold;
 
 
 .header-image {
-
   max-width: 400px;
+
 }
 
 
@@ -139,7 +136,6 @@ align-items: center;
 
 
 .boxes{ display: flex;
-display: flex;
 justify-content: space-between;
 
 }
@@ -160,12 +156,25 @@ padding: 15px 20px;
 
 
 
+@media ( max-width: 786px) { 
+
+.header .container { flex-direction: column;
+padding-top: 30px;
+text-align: center;
+
+}
+
+.boxes .container{ flex-direction: column;
+text-align: center;
+
+}
+
+.nav-bar .container { padding:0 10px;
 
 
+}
 
-
-
-
+}
 
 
 
